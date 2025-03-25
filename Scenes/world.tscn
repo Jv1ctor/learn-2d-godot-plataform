@@ -1,6 +1,6 @@
 [gd_scene load_steps=23 format=4 uid="uid://bbgxvss8ks7sd"]
 
-[ext_resource type="PackedScene" uid="uid://dxq4n34jkmm8s" path="res://Prefebs/moving_plataform.tscn" id="1_0fj1v"]
+[ext_resource type="PackedScene" uid="uid://prucqjiyp8xx" path="res://Prefebs/moving_plataform.tscn" id="1_0fj1v"]
 [ext_resource type="Texture2D" uid="uid://bg07lqn8rfpvc" path="res://Assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="1_8j60k"]
 [ext_resource type="Texture2D" uid="uid://ctq2atuvheybt" path="res://Assets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_fo5ed"]
 [ext_resource type="PackedScene" uid="uid://bvxvkswaosajl" path="res://Actors/player.tscn" id="3_5a7ea"]
