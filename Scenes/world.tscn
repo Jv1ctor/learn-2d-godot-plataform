@@ -1,9 +1,10 @@
-[gd_scene load_steps=23 format=4 uid="uid://bbgxvss8ks7sd"]
+[gd_scene load_steps=24 format=4 uid="uid://bbgxvss8ks7sd"]
 
 [ext_resource type="PackedScene" uid="uid://prucqjiyp8xx" path="res://Prefebs/moving_plataform.tscn" id="1_0fj1v"]
 [ext_resource type="Texture2D" uid="uid://bg07lqn8rfpvc" path="res://Assets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="1_8j60k"]
 [ext_resource type="Texture2D" uid="uid://ctq2atuvheybt" path="res://Assets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_fo5ed"]
 [ext_resource type="PackedScene" uid="uid://bvxvkswaosajl" path="res://Actors/player.tscn" id="3_5a7ea"]
+[ext_resource type="PackedScene" uid="uid://46fh7o5fgyxg" path="res://Prefebs/coin.tscn" id="3_ikia7"]
 [ext_resource type="Texture2D" uid="uid://db64hsxn51smo" path="res://Assets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png" id="4_k7acu"]
 [ext_resource type="Texture2D" uid="uid://covmf661gobmk" path="res://Assets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png" id="5_5v1tr"]
 [ext_resource type="Texture2D" uid="uid://d2xw544vr6yfw" path="res://Assets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png" id="6_0fj1v"]
@@ -155,6 +156,38 @@ use_parent_material = true
 position = Vector2(0, -5)
 tile_map_data = PackedByteArray("AAAfAA4AAQAFAAEAAAAPAA4AAQAFAAEAAAAWAA4AAQAJAAEAAAAKAAwAAQABAAEAAAAEAA4AAQAJAAEAAAACAA8AAQADAAUAAAApAA4AAQABAAEAAAAzAA8AAQAPAAIAAAA0AA8AAQAQAAIAAAA1AA8AAQARAAIAAAA2AA8AAQAPAAIAAAA3AA8AAQAQAAIAAAA4AA8AAQARAAIAAAAiAA4AAQAOAAQAAAAiAA8AAQAOAAUAAAAjAA4AAQAPAAQAAAAkAA4AAQAQAAQAAAAkAA8AAQAQAAUAAAAlAA4AAQARAAQAAAAmAA4AAQASAAQAAAAmAA8AAQASAAUAAAAwAA8AAQAPAAIAAAAxAA8AAQAQAAIAAAAyAA8AAQARAAIAAAA5AA8AAQABAAUAAAAvAA8AAQABAAUAAAA=")
 tile_set = SubResource("TileSet_k7acu")
+
+[node name="coins" type="Node2D" parent="."]
+
+[node name="coin" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(176, 32)
+
+[node name="coin2" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(208, -8)
+
+[node name="coin3" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(176, -8)
+
+[node name="coin4" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(144, -8)
+
+[node name="coin5" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(224, 152)
+
+[node name="coin6" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(360, 112)
+
+[node name="coin7" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(232, 64)
+
+[node name="coin8" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(56, 72)
+
+[node name="coin9" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(56, 104)
+
+[node name="coin10" parent="coins" instance=ExtResource("3_ikia7")]
+position = Vector2(56, 136)
 
 [node name="moving_plataform" parent="." instance=ExtResource("1_0fj1v")]
 position = Vector2(137, 182)
